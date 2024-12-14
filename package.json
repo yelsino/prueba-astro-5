@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build --remote",
+    "build": "astro check && ASTRO_STUDIO_APP_TOKEN=token astro build --remote",
     "preview": "astro preview",
     "astro": "astro"
   },
